@@ -1,75 +1,189 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Siva | Portfolio</title>
+    <title>A. Pujitha | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #f2f2f2;
-        }
-        header {
-            background: #222;
+            font-family: 'Segoe UI', sans-serif;
+            background: #0f172a;
             color: white;
-            padding: 40px;
+        }
+
+        nav {
+            background: #1e293b;
+            padding: 15px;
             text-align: center;
         }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+        }
+
+        header p {
+            color: #94a3b8;
+        }
+
         section {
-            padding: 40px;
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
         }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
         .card {
-            background: white;
+            background: #1e293b;
             padding: 20px;
-            margin: 20px 0;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            transition: 0.3s;
         }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+        }
+
+        ul {
+            line-height: 28px;
+        }
+
         footer {
             text-align: center;
-            padding: 20px;
-            background: #222;
-            color: white;
+            padding: 30px;
+            background: #1e293b;
         }
     </style>
 </head>
+
 <body>
 
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Technical Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+</nav>
+
 <header>
-    <h1>Hi, I'm Siva 👋</h1>
-    <p>Data Analyst | Power BI Developer | Excel Expert</p>
+    <h1>A. Pujitha 👩‍💻</h1>
+    <p>B.Tech Student | Web Development Enthusiast</p>
 </header>
 
-<section>
+<section id="about">
     <h2>About Me</h2>
     <div class="card">
-        <p>I am passionate about data analytics and creating interactive dashboards using Power BI. I enjoy transforming raw data into meaningful insights.</p>
+        <p>
+            My self A. Pujitha. I am a dedicated B.Tech student at 
+            St Mary's Group of Institutions, Guntur for Women. 
+            I have a strong interest in web development and emerging technologies. 
+            I am passionate about learning new skills and always strive to improve 
+            my knowledge in software and application development.
+        </p>
     </div>
+</section>
 
-    <h2>Skills</h2>
+<section id="skills">
+    <h2>Technical Skills</h2>
     <div class="card">
         <ul>
-            <li>Power BI</li>
-            <li>Excel</li>
-            <li>SQL</li>
-            <li>DAX</li>
-            <li>Data Visualization</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
         </ul>
     </div>
 
-    <h2>Projects</h2>
+    <h2>Soft Skills</h2>
     <div class="card">
-        <h3>Sales Dashboard</h3>
-        <p>Interactive Power BI dashboard showing revenue, profit and KPIs.</p>
+        <ul>
+            <li>Good Communication Skills</li>
+            <li>Leadership Qualities</li>
+        </ul>
+    </div>
+
+    <h2>Languages Known</h2>
+    <div class="card">
+        <ul>
+            <li>Telugu</li>
+            <li>English</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>🎵 Music Playlist Generator</h3>
+        <p>Developed a web application that generates customized music playlists based on user preferences.</p>
     </div>
 
     <div class="card">
-        <h3>HR Analytics</h3>
-        <p>Employee attrition and performance dashboard.</p>
+        <h3>🍔 Food Delivery App</h3>
+        <p>Created a responsive food delivery web application with menu browsing and ordering features.</p>
+    </div>
+
+    <h2>Achievements</h2>
+    <div class="card">
+        <ul>
+            <li>Active participant in Hackathon events</li>
+            <li>Presented startup ideas in academic sessions</li>
+        </ul>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Educational Details</h2>
+
+    <div class="card">
+        <h3>10th Class</h3>
+        <p>Sri Chaitanya | 2021-2022 | Tiruvuru</p>
+    </div>
+
+    <div class="card">
+        <h3>Intermediate</h3>
+        <p>SR College | 2022-2024 | Vijayawada</p>
+    </div>
+
+    <div class="card">
+        <h3>B.Tech</h3>
+        <p>St Mary's Group of Institutions, Guntur for Women | 2024-2028</p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact Details</h2>
+    <div class="card">
+        <p>Email: sudhikshagoud07@gmail.com</p>
+        <p>Phone: 9704080349</p>
+        <p>Location: Guntur, Andhra Pradesh</p>
+        <p>LinkedIn: Add your LinkedIn link here</p>
+        <p>GitHub: github.com/sudhikshagoud07-sudo</p>
     </div>
 </section>
 
 <footer>
-    <p>Contact: your-email@gmail.com</p>
+    <p>© 2026 A. Pujitha | Portfolio</p>
 </footer>
 
 </body>
